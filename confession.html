@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<br lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="confession.css">
+    <script src="https://open.spotify.com/embed/iframe-api/v1" async></script>
+    <title>yup that's it</title>
+</head>
+
+
+<body>
+    <div class="titel">
+        <h1><span id="userName"></span>&nbsp;I LIKE YOU</h1>
+    </div>
+
+    <div class="secret">
+        <h1>System<span style="color:#603f8b">.<span style="color:#fd49a0;">out</span>.</span><span
+                style="color:#b4fee7;">println</span>("</h1>
+        <div class="string">
+            <h1 class="confess you">You</h1>
+            <h1 class="confess are">Are</h1>
+            <h1 class="confess my">My</h1>
+            <h1 class="confess crush">Crush</h1>
+        </div>
+        <h1 class="closure">");</h1>
+    </div>
+
+    <div style="display: flex; justify-content: center;">
+        <button class="myButton"> <a href="index.html">Back to Why I Like You</a></button>
+    </div>
+
+    <script>
+        var urlParams = new URLSearchParams(window.location.search);
+        var userName = urlParams.get('name');
+        document.getElementById('userName').innerText = userName;
+    </script>
+
+</body>
+</html>

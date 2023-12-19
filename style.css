@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+        font-family: JetBrains Mono, monospace;
+        background-color: rgb(17, 17, 27);
+        transition: background-color 1s ease;
+        text-align: center;
+        color: rgba(217,215,206);
+        font-size: 120%;
+        line-height: 1.618;    
+}
+
+a {
+    text-decoration: none;
+  }
+
+.text-p {
+    font-size: larger;
+    text-align: center;
+    font-style: black;
+}
+
+.text-h {
+    font-size: 50px;
+    text-align: center;
+   
+    
+}
+
+:root::-webkit-scrollbar{
+    display: none;
+  }
+  
+  :root {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+ 
+
+.circle-container {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    margin: 20px;
+    
+}
+
+.circle {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    background-color: #fd49a0;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.circle-number {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.rectangle {
+    background-color: #f0f0f0; 
+    padding: 20px; 
+    border-radius: 20px; 
+    display: inline-block; 
+    width: 60%; 
+}
+
+
+.clock {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0b1618;
+    font-size: 60px;
+    font-family: JetBrains Mono, monospace;
+    letter-spacing: 7px;
+}
+
+
+.distance {
+    padding-top: 80px;    
+    padding-bottom: 80px; 
+}
+  
+
+.section {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    opacity: 0;
+    transition: opacity 0.9s ease-in-out;
+}
+
+.section.visible {
+    opacity: 10;
+}
+
+
+input[type=text] {
+	appearance: none;
+	border: none;
+	font-family: JetBrains Mono, monospace;
+	padding: .4em;
+	color: #000000;
+    font-weight: bold;
+    padding: 7px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    padding-right: 50px;
+    padding-left: 15px;
+
+   
+}
+
+button {
+    background-color:  #ff88b5;
+    font-family: JetBrains Mono, monospace;
+    color: #000000cc;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #D81E5B ;
+}
