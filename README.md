@@ -5,4 +5,5 @@
 Do you still have a secret crush on someone? then here you go, a simple Site to let you're secret out.
 ..or to just practice webdev :smiley::sparkles:
 
+:point_right: run index.html to see the magic
 
